@@ -15,6 +15,11 @@ require 'chef/knife/core/bootstrap_context'
 require 'chef/knife/ssh'
 require 'net/ssh'
 require 'net/ssh/multi'
+
+
+
+
+
 # config_file = File.exists?(File.join(Dir.getwd, ‘.chef’, ‘knife.rb’)) ?
 # File.join(Dir.getwd, ‘.chef’, ‘knife.rb’) :
 # File.join(File.expand_path(’~’), ‘.chef’, ‘knife.rb’)
